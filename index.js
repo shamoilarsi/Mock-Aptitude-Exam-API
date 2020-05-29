@@ -10,7 +10,7 @@ app.get("/", (req, res) => {
 });
 
 app.get("/api", (req, res) => {
-  if (req.query.number <= 30) {
+  if (req.query.limit <= 30) {
     fs.readFile(
       path.join(__dirname, "json", `${req.query.topic}.json`),
       "utf8",

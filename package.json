@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node index",
-    "dev": "nodeman index"
+    "dev": "nodemon index"
   },
   "author": "Shamoil Arsiwala",
   "license": "ISC",
@@ -13,6 +13,6 @@
     "express": "^4.17.1"
   },
   "devDependencies": {
-    "nodeman": "^1.1.2"
+    "nodemon": "^2.0.4"
   }
 }
