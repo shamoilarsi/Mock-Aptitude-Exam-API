@@ -1,0 +1,18 @@
+{
+  "name": "apti-exam-backend",
+  "version": "1.0.0",
+  "description": "API to serve with requested mcqs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodeman index"
+  },
+  "author": "Shamoil Arsiwala",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodeman": "^1.1.2"
+  }
+}

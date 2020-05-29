@@ -1,0 +1,292 @@
+{
+  "mcqs": [
+    {
+      "question": "<p>120, 99, 80, 63, 48, ?</p>",
+      "options": ["35", "38", "39", "40"],
+      "answer": "A",
+      "explanation": " <p>The pattern is - 21, - 19, - 17, - 15,.....</p><p>So, missing term = 48 - 13 = 35.</p> "
+    },
+    {
+      "question": "<p>589654237, 89654237, 8965423, 965423, ?</p>",
+      "options": ["58965", "65423", "89654", "96542"],
+      "answer": "D",
+      "explanation": " <p>The digits are removed one by one from the beginning and the end in order alternately</p><p>so as to obtain the subsequent terms of the series.</p> "
+    },
+    {
+      "question": "<p>3, 10, 101,?</p>",
+      "options": ["10101", "10201", "10202", "11012"],
+      "answer": "C",
+      "explanation": " <p>Each term in the series is obtained by adding 1 to the square of the preceding term.</p><p>So, missing term = (101)<sup>2</sup> + 1 = 10202.</p> "
+    },
+    {
+      "question": "<p>In the series 2, 6, 18, 54, ...... what will be the 8th term ?</p>",
+      "options": ["4370", "4374", "7443", "7434"],
+      "answer": "B",
+      "explanation": " <p>Clearly, 2 x 3 = 6, 6 x 3 = 18, 18 x 3 = 54,.....</p><p>So, the series is a G.P. in which a = 2, r = 3.</p><p>Therefore 8th term = ar<sup>8-1</sup> = ar<sup>7</sup> = 2 x 3<sup>7</sup> = (2 x 2187) = 4374.</p> "
+    },
+    {
+      "question": "<p>125,80,45,20,?</p>",
+      "options": ["5", "8", "10", "12"],
+      "answer": "A",
+      "explanation": " <p>The pattern is - 45, - 35, - 25, .....</p><p>So, missing term = 20 - 15 = 5.</p> "
+    },
+    {
+      "question": "<p>1, 1, 4, 8, 9, 27, 16, ?</p>",
+      "options": ["32", "64", "81", "256"],
+      "answer": "B",
+      "explanation": " <p>The series consists of squares and cubes of consecutive natural numbers i.e. 1<sup>2</sup>, 1<sup>3</sup>, 2<sup>2</sup>, 2<sup>3</sup>, 3<sup>2</sup>, 3<sup>3</sup>, 4<sup>2</sup>, .....</p><p>So, missing term = 4<sup>3</sup> = 64.</p> "
+    },
+    {
+      "question": "<p>1, 2, 3, 6, 9, 18, ?, 54</p>",
+      "options": ["18", "27", "36", "81"],
+      "answer": "B",
+      "explanation": " <p>The pattern is x 2, x 3/2, x 2, x 3/2, x 2,.....</p><p>So, missing term = 18 x 3/2 = 27.</p> "
+    },
+    {
+      "question": "<p>6, 13, 25, 51, 101, ?</p>",
+      "options": ["201", "202", "203", "205"],
+      "answer": "C",
+      "explanation": " <p>The pattern is x 2 + 1, x 2 - 1, x 2 + 1, x 2 - 1,.....</p><p>So, missing term = 101 x 2 + 1 = 203.</p> "
+    },
+    {
+      "question": "<p>5, 6, 9, 15, ?, 40</p>",
+      "options": ["21", "25", "27", "33"],
+      "answer": "B",
+      "explanation": " <p>The pattern is + 1, + 3, + 6,....., i.e. + 1, + (1 + 2), + (1 + 2 + 3),.....</p><p>So, missing term = 15 + (1 + 2 + 3 + 4) = 25.</p> "
+    },
+    {
+      "question": "<p>1, 3, 4, 8, 15, 27, ?</p>",
+      "options": ["37", "44", "50", "55"],
+      "answer": "C",
+      "explanation": " <p>The sum of any three consecutive terms of the series gives the next term.</p><p>So, missing number = 8 + 15 + 27 = 50.</p> "
+    },
+    {
+      "question": "<p>3, 4, 7, 7, 13, 13, 21, 22, 31, 34, ?</p>",
+      "options": ["42", "43", "51", "52"],
+      "answer": "B",
+      "explanation": " <p>The given sequence is a combination of two series :</p><p>I. 3, 7, 13, 21, 31, ? and II. 4, 7, 13, 22, 34</p><p>The pattern in I is + 4, + 6, + 8, + 10,.....</p><p>The pattern in II is + 3, + 6, + 9, + 12,.....</p><p>So, missing term = 31 + 12 = 43.</p> "
+    },
+    {
+      "question": "<p>198, 194, 185, 169, ?</p>",
+      "options": ["92", "112", "136", "144"],
+      "answer": "D",
+      "explanation": " <p>The pattern is - 4, - 9, - 16,.....i.e. - 2<sup>2</sup>, - 3<sup>2</sup>, - 4<sup>2</sup>,.....</p><p>So, missing pattern = 169 - 5<sup>2</sup> = 169 - 25 = 144.</p> "
+    },
+    {
+      "question": "<p>2, 3, 5,7,11,?, 17</p>",
+      "options": ["12", "13", "14", "15"],
+      "answer": "B",
+      "explanation": " <p>Clearly, the given series consists of prime numbers starting from 2. So, the missing</p><p>term is the prime number after 11, which is 13.</p> "
+    },
+    {
+      "question": "<p>6, 12, 21, ?, 48</p>",
+      "options": ["33", "38", "40", "45"],
+      "answer": "A",
+      "explanation": " <p>The pattern is + 6, + 9, + 12, + 15, .....</p><p>So, missing term = 21 + 12 = 33.</p> "
+    },
+    {
+      "question": "<p>Which term of the series 5, 10, 20, 40, ..... is 1280?</p>",
+      "options": ["10th", "9th", "8th", "None of these"],
+      "answer": "B",
+      "explanation": " <p>Clearly, 5 x 2 = 10, 10 x 2 = 20, 20 x 2 = 40,.....</p><p>So, the series is a G.P. in which a = 5 and r = 2.</p><p>Let 1280 be the rath term of the series.</p><p>Then, 5x2<sup>n-1</sup> = 1280 <img src=\"/_files/images/verbal-reasoning/common/bim.gif\"> 2<sup>n-1</sup> = 256 = 2<sup>8</sup> <img src=\"/_files/images/verbal-reasoning/common/bim.gif\"> n - 1 = 8 <img src=\"/_files/images/verbal-reasoning/common/bim.gif\"> n = 9.</p> "
+    },
+    {
+      "question": "<p>2, 5, 9, ?, 20, 27</p>",
+      "options": ["14", "16", "18", "24"],
+      "answer": "A",
+      "explanation": " <p>The pattern is + 3, + 4, + 5, + 6,.....</p><p>So, missing term = 9 + 5 = 14.</p> "
+    },
+    {
+      "question": "<p>2, 3, 3, 5, 10, 13, ?, 43, 172, 177</p>",
+      "options": ["23", "38", "39", "40"],
+      "answer": "C",
+      "explanation": " <p>The pattern is + 1, x 1, + 2, x 2, + 3, x 3, + 4, x 4, + 5.</p><p>So, missing term = 13 x 3 = 39.</p> "
+    },
+    {
+      "question": "<p>9, 27, 31, 155, 161, 1127, ?</p>",
+      "options": ["316", "1135", "1288", "2254"],
+      "answer": "B",
+      "explanation": " <p>The pattern is x 3, + 4, x 5, + 6, x 7,.....</p><p>So, missing term = 1127 + 8 = 1135.</p> "
+    },
+    {
+      "question": "<p>2, 1, 2, 4, 4, 5, 6, 7, 8, 8, 10, 11, ?</p>",
+      "options": ["9", "10", "11", "12"],
+      "answer": "B",
+      "explanation": " <p>The given sequence is a combination of three series :</p><p>I. 1st, 4th, 7th, 10th, 13th terms i.e. 2, 4, 6, 8, ?</p><p>II. 2nd, 5th, 8th, 11th terms i.e. 1, 4, 7, 10</p><p>III. 3rd, 6th, 9th, 12th terms i.e. 2, 5, 8, 11</p><p>Clearly, I consists of consecutive even numbers. So, the missing term is 10.</p> "
+    },
+    {
+      "question": "<p>Which of the following will not be a number of the series 1, 8, 27, 64, 125,.....?</p>",
+      "options": ["256", "512", "729", "1000"],
+      "answer": "A",
+      "explanation": " <p>The given series consists of cubes of natural numbers only. 256 is not the cube of</p><p>any natural number.</p> "
+    },
+    {
+      "question": "<p>13, 32, 24, 43, 35, ?, 46, 65, 57, 76</p>",
+      "options": ["45", "52", "54", "55"],
+      "answer": "C",
+      "explanation": " <p>The given sequence is a combination of two series:</p><p>I. 13, 24, 35, 46, 57 and II. 32, 43, ?, 65, 76</p><p>The pattern in both I and II is + 11. So, missing term = 43 + 11 = 54.</p> "
+    },
+    {
+      "question": "<p>22, 24, 28, ?, 52, 84</p>",
+      "options": ["36", "38", "42", "46"],
+      "answer": "A",
+      "explanation": " <p>The pattern is + 2, + 4, + 8, + 16,.....</p><p>So, missing term = 28 + 8 = 36.</p> "
+    },
+    {
+      "question": "<p>3, 15, ?, 63, 99, 143</p>",
+      "options": ["27", "35", "45", "56"],
+      "answer": "B",
+      "explanation": " <p>The terms of the given series are (2<sup>2</sup> - 1), (4<sup>2</sup> - 1),....., (8<sup>2</sup> - 1), (10<sup>2</sup> - 1), (12<sup>2</sup> - 1).</p><p>So, missing term = (6<sup>2</sup> - 1) - (36 - 1) = 35.</p> "
+    },
+    {
+      "question": "<p>90, 180, 12, 50, 100, 200, ?, 3, 50, 4, 25, 2, 6, 30, 3</p>",
+      "options": ["150", "175", "225", "250"],
+      "answer": "A",
+      "explanation": " <p>Clearly, 90 = 30 x 3, 180 = 6 x 30, 12 = 2 x 6, 50 = 25 x 2, 100 = 4 x 25, 200 = 50 x 4.</p><p>So, missing term = 3 x 50 = 150.</p> "
+    },
+    {
+      "question": "<p>48, 24, 96, 48, 192, ?</p>",
+      "options": ["76", "90", "96", "98"],
+      "answer": "C",
+      "explanation": " <p>The pattern is \u00f7 2, x 4, \u00f7 2, x 4, .....</p><p>So, missing term = 192 \u00f7 2 = 96.</p> "
+    },
+    {
+      "question": "<p>2,15,41,80,?</p>",
+      "options": ["111", "120", "121", "132"],
+      "answer": "D",
+      "explanation": " <p>The pattern is + 13, + 26, + 39,.....</p><p>So, missing term = 80 + 52 = 132.</p> "
+    },
+    {
+      "question": "<p>6, 11, 21, 36, 56, ?</p>",
+      "options": ["42", "51", "81", "91"],
+      "answer": "C",
+      "explanation": " <p>The pattern is + 5, + 10, + 15, + 20, ...</p><p>So, missing term = 56 + 25 = 81.</p> "
+    },
+    {
+      "question": "<p>563, 647, 479, 815, ?</p>",
+      "options": ["672", "386", "279", "143"],
+      "answer": "D",
+      "explanation": " <p>The pattern is + 84, - 168, + 336,.....i.e. + 84, - (84 x 2), + (84 x 2<sup>2</sup>), .....</p><p>So, missing term = 815 - (84 x 2<sup>3</sup>) = 815 - 672 = 143.</p> "
+    },
+    {
+      "question": "<p>13, 35, 57, 79, 911, ?</p>",
+      "options": ["1110", "1112", "1113", "1315"],
+      "answer": "C",
+      "explanation": " <p>The terms of the given series are numbers formed by joining together consecutive</p><p>odd numbers in order i.e. 1 and 3, 3 and 5, 5 and 7, 7 and 9, 9 and 11, .....</p><p>So, missing term = number formed by joining 11 and 13 = 1113.</p> "
+    },
+    {
+      "question": "<p>1, 4, 10, 22, 46, ?</p>",
+      "options": ["64", "86", "94", "122"],
+      "answer": "C",
+      "explanation": " <p>The pattern is + 3, + 6, + 12, + 24,.....</p><p>So, missing term = 46 + 48 = 94.</p> "
+    },
+    {
+      "question": "<p>66, 36, 18, ?</p>",
+      "options": ["3", "6", "8", "9"],
+      "answer": "C",
+      "explanation": " <p>Each term in the series is the product of the digits of the preceding term.</p><p>So, missing term = 1 x 8 = 8.</p> "
+    },
+    {
+      "question": "<p>In the series 3, 9, 15, ...... what will be the 21st term?</p>",
+      "options": ["117", "121", "123", "129"],
+      "answer": "C",
+      "explanation": " <p>Clearly, 3 + 6 = 9, 9 + 6 = 15,.....</p><p>So, the series is an A.P. in which a = 3 and d = 6.</p><p>Therefore 21st term = a + (21 - 1) d = a + 20d = 3 + 20 x 6 = 123.</p> "
+    },
+    {
+      "question": "<p>28, 33, 31, 36, ?, 39</p>",
+      "options": ["32", "34", "38", "40"],
+      "answer": "B",
+      "explanation": " <p>The pattern is + 5, - 2, + 5, - 2,.....</p><p>So, missing term = 36 - 2 = 34.</p> "
+    },
+    {
+      "question": "<p>1, 9, 25, 49, 81, ?</p>",
+      "options": ["100", "112", "121", "144"],
+      "answer": "C",
+      "explanation": " <p>The series consists of squares of consecutive odd numbers</p><p>i.e. 1<sup>2</sup>, 3<sup>2</sup>, 5<sup>2</sup>, 7<sup>2</sup>, 9<sup>2</sup>,.....</p><p>So, missing term = 11<sup>2</sup> = 121.</p> "
+    },
+    {
+      "question": "<p>1, 9, 25, 49, ?, 121</p>",
+      "options": ["64", "81", "91", "100"],
+      "answer": "B",
+      "explanation": " <p>The given series consists of squares of consecutive odd numbers</p><p>i.e. 1<sup>2</sup>, 3<sup>2</sup>, 5<sup>2</sup>, 7<sup>2</sup>,.....</p><p>So, missing term = 9<sup>2</sup> = 81.</p> "
+    },
+    {
+      "question": "<p>2,2,5, 13,28,?</p>",
+      "options": ["49", "50", "51", "52"],
+      "answer": "D",
+      "explanation": " <p>The pattern is + 0, + 3, + 8, + 15, ..... i.e. + (l<sup>2</sup> - 1), + (2<sup>2</sup> - 1), + (3<sup>2</sup> - 1), + (4<sup>2</sup> - 1), .....</p><p>So, missing term = 28 + (5<sup>2</sup> - 1) = 28 + 24 = 52.</p> "
+    },
+    {
+      "question": "<p>0, 2, 8, 14, ?, 34</p>",
+      "options": ["20", "23", "24.", "25"],
+      "answer": "C",
+      "explanation": " <p>The pattern is + 2, + 6, + 6, + 10, + 10,.....</p><p>So, missing term = 14 + 10 = 24.</p> "
+    },
+    {
+      "question": "<p>1, 5, 14, 30, 55, 91, ?</p>",
+      "options": ["130", "140", "150", "160"],
+      "answer": "B",
+      "explanation": " <p>The pattern is + 4, + 9, + 16, + 25, + 36, ..... i.e. + 2<sup>2</sup>, + 3<sup>2</sup>, + 4<sup>2</sup>, + 5<sup>2</sup>, + 6<sup>2</sup>,.....</p><p>So, missing term = 91 + 7<sup>2</sup> = 91 + 49 = 140.</p> "
+    },
+    {
+      "question": "<p>In the series 10, 17, 24, 31, 38,.....which of the following will be a number of the series ?</p>",
+      "options": ["48", "346", "574", "1003"],
+      "answer": "B",
+      "explanation": " <p>The given series consists of numbers each of which, on dividing by 7, leaves a</p><p>remainder 3. No other number except 346 satisfies the property.</p> "
+    },
+    {
+      "question": "<p>240, ?, 120, 40, 10, 2</p>",
+      "options": ["180", "240", "420", "480"],
+      "answer": "B",
+      "explanation": " <p>The pattern is \u00f7 1, \u00f7 2, \u00f7 3, \u00f7 4, \u00f7 5.</p><p>So, missing term = 240 \u00f7 1 = 240.</p> "
+    },
+    {
+      "question": "<p>2,3,8,27, 112,?</p>",
+      "options": ["226", "339", "452", "565"],
+      "answer": "D",
+      "explanation": " <p>The pattern is x 1 + 1, x 2 + 2, x 3 + 3, x 4 + 4,.....</p><p>So, missing term = 112 x 5 + 5 = 565.</p> "
+    },
+    {
+      "question": "<p>6, 17, 39, 72, ?</p>",
+      "options": ["83", "94", "116", "127"],
+      "answer": "C",
+      "explanation": " <p>The pattern is + 11, + 22, + 33, .....</p><p>So, missing term = 72 + 44 = 116.</p> "
+    },
+    {
+      "question": "<p>20, 20, 19, 16, 17, 13, 14, 11, ?, ?</p>",
+      "options": ["10, 10", "10, 11", "13, 14", "13, 16"],
+      "answer": "A",
+      "explanation": " <p>Let the missing terms of the series be x<sub>1</sub> and x<sub>2</sub>.</p><p>Thus, the sequence 20, 20, 19, 16, 17, 13, 14, 11, xv x2 is a combination of two series :</p><p>I. 20, 19, 17, 14, x<sub>1</sub> and II. 20, 16, 13, 11, x<sub>2</sub></p><p>The pattern in I is - 1, - 2, - 3,......So, missing term, x<sub>1</sub> = 14 - 4 = 10.</p><p>The pattern in II is - 4, - 3, - 2,......So, missing term, x<sub>2</sub> = 11 - 1 = 10.</p> "
+    },
+    {
+      "question": "<p>24, 60, 120, 210, ?</p>",
+      "options": ["300", "336", "420", "525"],
+      "answer": "B",
+      "explanation": " <p>The pattern is + 36, + 60, + 90,.....i.e. + [6 x (6 + 0)], + [6 x (6 + 4)], + [6 x (6 + 9)],...</p><p>So, missing term = 210 + [6 x (6 + 15)] = 210 + 126 = 336.</p> "
+    },
+    {
+      "question": "<p>625, 5, 125, 25, 25, ?, 5</p>",
+      "options": ["5", "25", "125", "625"],
+      "answer": "C",
+      "explanation": " <p>The given sequence is a combination of two series :</p><p>I. 625, 125, 25, 5 and II. 5, 25, ?</p><p>The pattern in I is \u00f7 5, while that in II is x 5. So, missing term = 25 x 5 = 125.</p> "
+    },
+    {
+      "question": "<p>10, 100, 200, 310, ?</p>",
+      "options": ["400", "410", "420", "430"],
+      "answer": "D",
+      "explanation": " <p>The pattern is + 90 + 100, + 110,.....</p><p>So, missing term = 310 + 120 = 430.</p> "
+    },
+    {
+      "question": "<p>11, 10, ?, 100, 1001, 1000, 10001</p>",
+      "options": ["101", "110", "111", "None of these"],
+      "answer": "A",
+      "explanation": " <p>The pattern is - 1, x 10 + 1, - 1, x 10 + 1, - 1, x 10 + 1, .....</p><p>So, missing term = 10 x 10 + 1 = 101.</p> "
+    },
+    {
+      "question": "<p>2, 7, 27, 107, 427, ?</p>",
+      "options": ["1262", "1707", "4027", "4207"],
+      "answer": "B",
+      "explanation": " <p>The pattern is + 5, + 20, + 80, + 320, ...... i.e. + (5 x 1<sup>2</sup>), + (5 x 2<sup>2</sup>), + (5 x 4<sup>2</sup>), + (5 x 8<sup>2</sup>),.....</p><p>So, missing term = 427 + (5 x 16<sup>2</sup>) = 427 + 1280 = 1707.</p> "
+    }
+  ]
+}

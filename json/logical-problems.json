@@ -1,0 +1,196 @@
+{
+  "mcqs": [
+    {
+      "question": "<p>Tanya is older than Eric.<br>\nCliff is older than Tanya.<br>\nEric is older than Cliff.<br>\nIf the first two statements are true, the third statement is</p>",
+      "options": ["true", "false", "uncertain"],
+      "answer": "B",
+      "explanation": " Because the first two statements are true, Eric is the  youngest of the three, so the third statement must be false. "
+    },
+    {
+      "question": "<p>Blueberries cost more than strawberries.<br>\nBlueberries cost less than raspberries.<br>\nRaspberries cost more than strawberries and blueberries.<br>\nIf the first two statements are true, the third statement is</p>",
+      "options": ["true", "false", "uncertain"],
+      "answer": "A",
+      "explanation": " Because the first two statements are true, raspberries are the most expensive of the three. "
+    },
+    {
+      "question": "<p>All the trees in the park are flowering trees.<br>\nSome of the trees in the park are dogwoods.<br>\nAll dogwoods in the park are flowering trees.<br>\nIf the first two statements are true, the third statement is</p>",
+      "options": ["true", "false", "uncertain"],
+      "answer": "A",
+      "explanation": " All of the trees in the park are flowering trees, So all dogwoods <u>in the park</u> are flowering trees. "
+    },
+    {
+      "question": "<p>Mara runs faster than Gail.<br>\nLily runs faster than Mara.<br>\nGail runs faster than Lily.<br>\nIf the first two statements are true, the third statement is</p>",
+      "options": ["true", "false", "uncertain"],
+      "answer": "B",
+      "explanation": " We know from the first two statements that Lily runs fastest. Therefore, the third statement must be false. "
+    },
+    {
+      "question": "<p>Apartments in the Riverdale Manor cost less than apartments in The Gaslight Commons.<br>\nApartments in the Livingston Gate cost more than apartments in the The Gaslight Commons.<br>\nOf the three apartment buildings, the Livingston Gate costs the most.<br>\nIf the first two statements are true, the third statement is</p>",
+      "options": ["true", "false", "uncertain"],
+      "answer": "A",
+      "explanation": " Since the Gaslight Commons costs more than the Riverdale Manor and the Livingston Gate costs more than the Gaslight Commons, it is true that the Livingston Gate costs the most. "
+    },
+    {
+      "question": "<p>The Kingston Mall has more stores than the Galleria.<br>\nThe Four Corners Mall has fewer stores than the Galleria.<br>\nThe Kingston Mall has more stores than the Four Corners Mall.<br>\nIf the first two statements are true, the third statement is</p>",
+      "options": ["true", "false", "uncertain"],
+      "answer": "A",
+      "explanation": " From the first two statements, you know that the Kingston Mall has the most stores, so the Kingston Mall would have more stores than the Four Corners Mall. "
+    },
+    {
+      "question": "<p>All the tulips in Zoe's garden are white.<br>\nAll the pansies in Zoe's garden are yellow.<br>\nAll the flowers in Zoe's garden are either white or yellow<br>\nIf the first two statements are true, the third statement is</p>",
+      "options": ["true", "false", "uncertain"],
+      "answer": "C",
+      "explanation": " The first two statements give information about Zoe's  tulips and pansies. Information about any other kinds of flowers cannot be determined. "
+    },
+    {
+      "question": "<p>During the past year, Josh saw more movies than Stephen.<br>\nStephen saw fewer movies than Darren.<br>\nDarren saw more movies than Josh.<br>\nIf the first two statements are true, the third statement is</p>",
+      "options": ["true", "false", "uncertain"],
+      "answer": "C",
+      "explanation": " Because the first two sentences are true, both Josh and Darren saw more movies than Stephen. However, it is uncertain as to whether \nDarren saw more movies than Josh. "
+    },
+    {
+      "question": "<p>Rover weighs less than Fido.<br>\nRover weighs more than Boomer.<br>\nOf the three dogs, Boomer weighs the least.<br>\nIf the first two statements are true, the third statement is</p>",
+      "options": ["true", "false", "uncertain"],
+      "answer": "A",
+      "explanation": " According to the first two statements, Fido weighs  the most and Boomer weighs the least. "
+    },
+    {
+      "question": "<p>All the offices on the 9th floor have wall-to-wall carpeting.<br>\nNo wall-to-wall carpeting is pink.<br>\nNone of the offices on the 9th floor has pink wall-to-wall carpeting.<br>\nIf the first two statements are true, the third statement is</p>",
+      "options": ["true", "false", "uncertain"],
+      "answer": "A",
+      "explanation": " If no wall-to-wall carpeting is pink and all the offices have wall-to-wall carpeting, none of the offices has pink wall-to-wall carpeting. "
+    },
+    {
+      "question": "<p>Class A has a higher enrollment than Class B.<br>\nClass C has a lower enrollment than Class B.<br>\nClass A has a lower enrollment than Class C.<br>\nIf the first two statements are true, the third statement is</p>",
+      "options": ["true", "false", "uncertain"],
+      "answer": "B",
+      "explanation": " From the first two statements, we know that of the three classes, Class A has the highest enrollment, so the third statement must be false. "
+    },
+    {
+      "question": "<p>A fruit basket contains more apples than lemons.<br>\nThere are more lemons in the basket than there are oranges.<br>\nThe basket contains more apples than oranges.<br>\nIf the first two statements are true, the third statement is</p>",
+      "options": ["true", "false", "uncertain"],
+      "answer": "A",
+      "explanation": " <p>There are fewer oranges than either apples or lemons, so the statement is true. <br><br>\n\nEasy method: (Try this method to solve without any confusion) <br><br>\n\n1. A fruit basket contains more apples than lemons = App &gt; Lem <br>\n2. There are more lemons in the basket than there are oranges = Lem &gt; Org <br><br>\n\nNow, Combine the above two results: App &gt; Lem &gt; Org <br><br>\n\n3. The basket contains more apples than oranges (App &gt; ... &gt; Org) = Yes.<br><br>\n\nTherefore, the given 3rd statement is true.</p> "
+    },
+    {
+      "question": "<p>The Shop and Save Grocery is south of Greenwood Pharmacy.<br>\nRebecca's house is northeast of Greenwood Pharmacy.<br>\nRebecca's house is west of the Shop and Save Grocery.<br>\nIf the first two statements are true, the third statement is</p>",
+      "options": ["true", "false", "uncertain"],
+      "answer": "B",
+      "explanation": " Because the first two statements are true, Rebecca's house is also northeast of the Shop and Save Grocery, which means that the third statement is false. "
+    },
+    {
+      "question": "<p>Joe is younger than Kathy.<br>\nMark was born after Joe.<br>\nKathy is older than Mark.<br>\nIf the first two statements are true, the third statement is</p>",
+      "options": ["true", "false", "uncertain"],
+      "answer": "A",
+      "explanation": " Joe is younger than Kathy and older than Mark, so Mark must be younger than Kathy. "
+    },
+    {
+      "question": "<p>On the day the Barton triplets are born,<br>\nJenna weighs more than Jason.<br>\nJason weighs less than Jasmine.<br>\nOf the three babies, Jasmine weighs the most.<br>\nIf the first two statements are true, the third statement is</p>",
+      "options": ["true", "false", "uncertain"],
+      "answer": "C",
+      "explanation": " We only know that Jasmine weighs more than Jason. There is no way to tell whether Jasmine also weighs more than Jenna. "
+    },
+    {
+      "question": "<p>The temperature on Monday was lower than on Tuesday.<br>\nThe temperature on Wednesday was lower than on Tuesday.<br>\nThe temperature on Monday was higher than on Wednesday<br>\nIf the first two statements are true, the third statement is</p>",
+      "options": ["true", "false", "uncertain"],
+      "answer": "C",
+      "explanation": " We know from the first two statements that Tuesday had the highest temperature, but we cannot know whether Monday's temperature was  higher than Tuesday's "
+    },
+    {
+      "question": "<p>Oat cereal has more fiber than corn cereal but less fiber than bran cereal.<br>\nCorn cereal has more fiber than rice cereal but less fiber than wheat cereal.<br>\nOf the three kinds of cereal, rice cereal has the least amount of fiber.<br>\nIf the first two statements are true, the third statement is</p>",
+      "options": ["true", "false", "uncertain"],
+      "answer": "A",
+      "explanation": " From the first statement, we know that bran cereal has more fiber than both oat cereal and corn cereal. From the second statement, we know that rice cereal has less fiber than both corn and wheat cereals. Therefore, rice cereal has the least amount of fiber. "
+    },
+    {
+      "question": "<p>Martina is sitting in the desk behind Jerome.<br>\nJerome is sitting in the desk behind Bryant.<br>\nBryant is sitting in the desk behind Martina.<br>\nIf the first two statements are true, the third statement is</p>",
+      "options": ["true", "false", "uncertain"],
+      "answer": "B",
+      "explanation": " Given the information in the first two statements, Bryant is sitting in front of both Jerome and Martina, so the third statement must be false. "
+    },
+    {
+      "question": "<p>Battery X lasts longer than Battery Y.<br>\nBattery Y doesn't last as long as Battery Z.<br>\nBattery Z lasts longer than Battery X.<br>\nIf the first two statements are true, the third statement is</p>",
+      "options": ["true", "false", "uncertain"],
+      "answer": "C",
+      "explanation": " The first two statements indicate that Battery Y lasts the least amount of time, but it cannot be determined if Battery Z lasts longer than Battery X. "
+    },
+    {
+      "question": "<p>Spot is bigger than King and smaller than Sugar.<br>\nRalph is smaller than Sugar and bigger than Spot.<br>\nKing is bigger than Ralph.<br>\nIf the first two statements are true, the third statement is</p>",
+      "options": ["true", "false", "uncertain"],
+      "answer": "B",
+      "explanation": " Spot is bigger than King, and Ralph is bigger than Spot. Therefore, King must be smaller than Ralph. "
+    },
+    {
+      "question": "<p>Middletown is north of Centerville.<br>\nCenterville is east of Penfield.<br>\nPenfield is northwest of Middletown.<br>\nIf the first two statements are true, the third statement is</p>",
+      "options": ["true", "false", "uncertain"],
+      "answer": "B",
+      "explanation": " Because the first two statements are true, Penfield is  west of Centerville and southwest of Middletown. Therefore, the third statement is false. "
+    },
+    {
+      "question": "<p>All spotted Gangles have long tails.<br>\nShort-haired Gangles always have short tails.<br>\nLong-tailed Gangles never have short hair.<br>\nIf the first two statements are true, the third statement is</p>",
+      "options": ["true", "false", "uncertain"],
+      "answer": "C",
+      "explanation": " We know only that long-tailed Gangles have spots. We cannot know for certain if long-tailed Gangles also have short hair. "
+    },
+    {
+      "question": "<p>All Lamels are Signots with buttons.<br>\nNo yellow Signots have buttons.<br>\nNo Lamels are yellow.<br>\nIf the first two statements are true, the third statement is</p>",
+      "options": ["true", "false", "uncertain"],
+      "answer": "A",
+      "explanation": " We know that there are Signots with buttons, or Lamels, and that there are yellow Signots, which have no buttons. Therefore, Lamels do not have buttons and cannot be yellow. "
+    },
+    {
+      "question": "<p>The hotel is two blocks east of the drugstore.<br>\nThe market is one block west of the hotel.<br>\nThe drugstore is west of the market.<br>\nIf the first two statements are true, the third statement is</p>",
+      "options": ["true", "false", "uncertain"],
+      "answer": "A",
+      "explanation": " The market is one block west of the hotel. The drugstore is two blocks west of the hotel, so the drugstore is west of the market. "
+    },
+    {
+      "question": "<p>A toothpick is useful.<br>\nUseful things are valuable.<br>\nA toothpick is valuable.<br>\nIf the first two statements are true, the third statement is</p>",
+      "options": ["true", "false", "uncertain"],
+      "answer": "A",
+      "explanation": " To the extent that a toothpick is useful, it has value. "
+    },
+    {
+      "question": "<p>Tom puts on his socks before he puts on his shoes.<br>\nHe puts on his shirt before he puts on his jacket.<br>\nTom puts on his shoes before he puts on his shirt.<br>\nIf the first two statements are true, the third statement is</p>",
+      "options": ["true", "false", "uncertain"],
+      "answer": "C",
+      "explanation": " There is not enough information to verify the third statement. "
+    },
+    {
+      "question": "<p>Three pencils cost the same as two erasers.<br>\nFour erasers cost the same as one ruler.<br>\nPencils are more expensive than rulers.<br>\nIf the first two statements are true, the third statement is</p>",
+      "options": ["true", "false", "uncertain"],
+      "answer": "B",
+      "explanation": " Rulers are the most expensive item. "
+    },
+    {
+      "question": "<p>Taking the train across town is quicker than taking the bus.<br>\nTaking the bus across town is slower than driving a car.<br>\nTaking the train across town is quicker than driving a car.<br>\nIf the first two statements are true, the third statement is</p>",
+      "options": ["true", "false", "uncertain"],
+      "answer": "C",
+      "explanation": " Both the car and the train are quicker than the bus, but there is no way to make a comparison between the train and the car. "
+    },
+    {
+      "question": "<p>Cloudy days tend to be more windy than sunny days.<br>\nFoggy days tend to be less windy than cloudy days.<br>\nSunny days tend to be less windy than foggy days.<br>\nIf the first two statements are true, the third statement is</p>",
+      "options": ["true", "false", "uncertain"],
+      "answer": "C",
+      "explanation": " Cloudy days are the most windy, but there is not enough information to compare the wind on the foggy days with the wind on the sunny days. "
+    },
+    {
+      "question": "<p>At a parking lot, a sedan is parked to the right of a pickup and to the left of a sport utility vehicle.<br>\nA minivan is parked to the left of the pickup.<br>\nThe minivan is parked between the pickup and the sedan.<br>\nIf the first two statements are true, the third statement is</p>",
+      "options": ["true", "false", "uncertain"],
+      "answer": "B",
+      "explanation": " This is the order of the cars from left to right: minivan, pickup, sedan, sport utility vehicle. "
+    },
+    {
+      "question": "<p>The bookstore has a better selection of postcards than the newsstand does.<br>\nThe selection of postcards at the drugstore is better than at the bookstore.<br>\nThe drugstore has a better selection of postcards than the bookstore or the newsstand.<br>\nIf the first two statements are true, the third statement is</p>",
+      "options": ["true", "false", "uncertain"],
+      "answer": "A",
+      "explanation": " Of the three, the drugstore has the best selection of postcards. "
+    },
+    {
+      "question": "<p>A jar of jelly beans contains more red beans than green.<br>\nThere are more yellow beans than red.<br>\nThe jar contains fewer yellow jelly beans than green ones.<br>\nIf the first two statements are true, the third statement is</p>",
+      "options": ["true", "false", "uncertain"],
+      "answer": "B",
+      "explanation": " The first two statements indicate there are more yellow jelly beans than red and green. "
+    }
+  ]
+}
