@@ -20,7 +20,7 @@ app.get("/api", (req, res) => {
           let list = test["mcqs"];
           const shuffled = list
             .sort(() => 0.5 - Math.random())
-            .slice(0, req.query.number);
+            .slice(0, req.query.limit);
 
           res.json({ mcq: shuffled });
         } 
