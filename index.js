@@ -9,7 +9,54 @@ app.get("/", (req, res) => {
   res.sendFile(path.join(__dirname, "public", "index.html"));
 });
 
-app.get("/api", (req, res) => {
+app.post("/api/saveResult", (req, res) => {
+  const id = req.query.id;
+  const result = req.query.result;
+
+  console.log(id, result);
+  fs.readFile(
+    path.join(__dirname, "json", "credentials.json"),
+    "utf8",
+    (err, data) => {
+      if (!err) {
+        data = JSON.parse(data);
+        data[id]["result"] = result;
+
+        fs.writeFile(
+          path.join(__dirname, "json", "credentials.json"),
+          JSON.stringify(data),
+          (err) => {
+            if (err) {
+              res.json({ msg: "failed" });
+            }
+          }
+        );
+      }
+    }
+  );
+
+  res.json({ msg: "success" });
+});
+
+app.post("/api/credentials", (req, res) => {
+  const id = req.query.id;
+  const pass = req.query.pass;
+
+  fs.readFile(
+    path.join(__dirname, "json", "credentials.json"),
+    "utf8",
+    (err, data) => {
+      if (!err) {
+        data = JSON.parse(data)[id];
+        const found = data && data["pass"] == pass;
+
+        res.json({ status: found ? "success" : "failed" });
+      } else res.status(400).send("");
+    }
+  );
+});
+
+app.post("/api/apti", (req, res) => {
   if (req.query.limit <= 30) {
     fs.readFile(
       path.join(__dirname, "json", `${req.query.topic}.json`),
@@ -23,7 +70,7 @@ app.get("/api", (req, res) => {
             .slice(0, req.query.limit);
 
           res.json({ mcq: shuffled });
-        } 
+        }
       }
     );
   } else {
