@@ -1,15 +1,30 @@
 const express = require("express");
+const cors = require("cors");
 const path = require("path");
 const fs = require("fs");
+
+const allowedOrigins = ["http://localhost", "https://aptitude-exam.web.app/"];
 
 const PORT = process.env.PORT || 5000;
 const app = express();
 
-app.get("/", (req, res) => {
+const corsOptions = {
+  origin: (origin, callback) => {
+    if (allowedOrigins.includes(origin) || !origin) {
+      callback(null, true);
+    } else {
+      callback(new Error("Origin not allowed by CORS"));
+    }
+  },
+};
+
+app.options("*", cors(corsOptions));
+
+app.get("/", cors(corsOptions), (req, res) => {
   res.sendFile(path.join(__dirname, "public", "index.html"));
 });
 
-app.post("/api/saveResult", (req, res) => {
+app.post("/api/saveResult", cors(corsOptions), (req, res) => {
   const id = req.query.id;
   const result = req.query.result;
 
@@ -38,7 +53,7 @@ app.post("/api/saveResult", (req, res) => {
   res.json({ msg: "success" });
 });
 
-app.post("/api/credentials", (req, res) => {
+app.post("/api/credentials", cors(corsOptions), (req, res) => {
   const id = req.query.id;
   const pass = req.query.pass;
 
@@ -56,7 +71,7 @@ app.post("/api/credentials", (req, res) => {
   );
 });
 
-app.post("/api/apti", (req, res) => {
+app.post("/api/apti", cors(corsOptions), (req, res) => {
   if (req.query.limit <= 30) {
     fs.readFile(
       path.join(__dirname, "json", `${req.query.topic}.json`),
