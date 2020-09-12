@@ -1,0 +1,134 @@
+{
+  "mcqs": [
+    {
+      "question": "<p>What will be the output of the following Python code?.<br>\nsentence = 'horses are fast'.<br>\nregex = re.compile('(?P<animal>\w+)(?P<verb>\w+).<br>\n(?P<adjective>\w+)').<br>\nmatched = re.search(regex, sentence).<br>\nprint(matched.group(2)) </p>",
+      "options": ["{‘animal’: ‘horses’, ‘verb’: ‘are’, ‘adjective’: ‘fast’}", "(‘horses’, ‘are’, ‘fast’)", "‘horses are fast’", "'are’"],
+      "answer": "D",
+      
+    },
+    {
+      "question": "<p>The single line equivalent of the following Python code?.<br>\nl=[1, 2, 3, 4, 5].<br>\ndef f1(x):.<br>\n return x<0.<br>\nm1=filter(f1, l).<br>\nprint(list(m1))</p>",
+      "options": ["filter(lambda x:x<0, l)", "filter(lambda x, y: x<0, l)", "filter(reduce x<0, l) ","reduce(x: x<0, l)"],
+      "answer": "A",
+      
+    },
+    {
+      "question": "<p>What is the order of precedence in python?<br>\nParentheses<br>\n Exponential.<br>\nMultiplication.<br>\n Division.<br>\nAddition.<br>\nSubstraction </p>",
+      "options": ["i,ii,iii,iv,v,vi", "ii,i,iii,iv,v,vi", "ii,i,iv,iii,v,vi","i,ii,iii,iv,vi,v"],
+      "answer": "A",
+      
+    },
+    {
+      "question": "<p>What will be the output of the following Python code? .<br>\nl=[1, 0, 2, 0, 'hello', '', []] <br>\n list(filter(bool, l)) </p>",
+      "options": ["Error", "[1, 0, 2, 0, ‘hello’, ”, []]", "[1, 0, 2, ‘hello’, ”, []]","[1, 2, ‘hello’]"],
+      "answer": "D",
+      
+    },
+    {
+      "question": "<p>What will be the output of the following Python code?.<br>\nl=list('HELLO').<br>\n'first={0[0]}, third={0[2]}'.format(l) </p>",
+      "options": ["‘first=H, third=L’", "‘first=0, third=2’", "Error","‘first=0, third=L"],
+      "answer": "A",
+      
+    },
+    {
+      "question": "<p>Observe the following Python code? <br>\ndef a(n): <br>\nif n == 0: <br>\nreturn 0 <br>\nelse: <br>\nreturn n*a(n - 1) <br>\ndef b(n, tot): <br>\nif n == 0: <br>\nreturn tot<br>\nelse: <br>\nreturn b(n-2, tot-2) </p>",
+      "options": ["Both a() and b() aren’t tail recursive", "Both a() and b() are tail recursive", "b() is tail recursive but a() isn’t","a() is tail recursive but b() isn’t"],
+      "answer": "C",
+      
+    },
+    {
+      "question": "<p>Where are the arguments received from the command line stored?</p>",
+      "options": ["sys.argv ", "os.argv", "argv","none of the mentioned"],
+      "answer": "A",
+      },
+    {
+      "question": "<p>What will be the output of the following Python code? <br>\nimport turtle.<br>\nt=turtle.Pen().<br>\nfor i in range(0,5):.<br>\nt.left(144) .<br>\nt.forward(100) </p>",
+      "options": ["Trapezium", "Parallelepiped", "Tetrahedron","Star"],
+      "answer": "D",
+    },
+    {
+      "question": "<p>What will be the output of the following Python code? <br>\nrandom.seed(3)<br>\nrandom.randint(1,5).<br>\n 2<br>\n random.seed(3) <br>\n random.randint(1,5)</p>",
+      "options": ["3", "2", "Any integer between 1 and 5, including 1 and 5","Any integer between 1 and 5, excluding 1 and 5"],
+      "answer": "B",
+    },
+    {
+      "question": "<p>What will be the output of the following Python code? <br>\n try:<br>\nif '1' != 1:<br>\n raise "someError" <br>\n else:<br>\n print("someError has not occurred") <br>\n except "someError": <br>\n print ("someError has occurred") </p>",
+      "options": ["someError has occurred", "someError has not occurred", "invalid code","none of the mentioned"],
+      "answer": "C",
+    },
+    {
+      "question": "<p>What will be the output of the following Python code? <br>\nclass A: <br>\n def __init__(self,x): <br>\n self.x = x <br>\n def count(self,x): <br>\nself.x = self.x+1 <br>\n class B(A):<br>\ndef __init__(self, y=0): <br>\nA.__init__(self, 3) <br>\nself.y = y <br>\ndef count(self): <br>\nself.y += 1 <br>\ndef main():<br>\nobj = B() <br>\nobj.count() <br>\nprint(obj.x, obj.y) <br>\nmain() </p>",
+      "options": ["3 0", "3 1", "0 1","An exception in thrown"],
+      "answer": "B",
+    },
+    {
+      "question": "<p>What will be the output of the following Python code?.<br>\nclass Demo:<br>\n def __init__(self):<br>\n self.x = 1 <br>\ndef change(self):<br>\n self.x = 10 <br>\n class Demo_derived(Demo): <br>\ndef change(self): <br>\n self.x=self.x+1 <br>\nreturn self.x <br>\n def main(): <br>\n obj = Demo_derived() <br>\n print(obj.change()) <br>\n main() </p>",
+      "options": ["11", "2", "1","An exception is thrown"],
+      "answer": "B",
+    },
+    {
+      "question": "<p>To find the decimal value of 1111, that is 15, we can use the function:</p>",
+      "options": ["int(1111,10)", "int(‘1111’,10)", "int(1111,2)","int(‘1111’,2)"],
+      "answer": "D",
+    },
+    {
+      "question": "<p>What happens in the following code? <br>\n class A: <br>\ndef __init__(self, i=100): <br>\n self.i=i <br>\nclass B(A): <br>\n def __init__(self,j=0): <br>\nself.j=j <br>\n def main(): <br>\n b= B() <br>\n print(b.i) <br>\n print(b.j) <br>\nmain()</p>",
+      "options": ["Class B inherits all the data fields of class A.", "Class B needs an Argument", "The data field ‘j’ cannot be accessed by object b","Class B is in heriting class A but the data field ‘I’ inA  cannot be inherited"],
+      "answer": "D",
+    },
+    {
+      "question": "<p>Which of the following statements regarding enumerators is false?</p>",
+      "options": ["Enumeration is an alternative method for naming integer constants", "An enumerator value can’t be changed in a program", "An integer value may be assigned to an enumerated variable","An enum defined within a structure is local to the structure"],
+      "answer": "C",
+    },
+    {
+      "question": "<p>Which of the following statements is false?</p>",
+      "options": ["typedef defines new data types", "Using typedef does not replace the standard C++ data type name with the new name", "The new name defined by typedef, can be used as a type for another typedef","None of the above"],
+      "answer": "A",
+    },
+    {
+      "question": "<p>A memory location shared by two or more different variables</p>",
+      "options": ["Structure", "Class", "Union","None of the above"],
+      "answer": "C",
+    },
+    {
+      "question": "<p>Which of the following correctly describes overloading of functions?</p>",
+      "options": ["Virtual polymorphism", "Transient polymorphism", "Ad-hoc polymorphism","Pseudo polymorphism"],
+      "answer": "C",
+    },
+    {
+      "question": "<p>Which of the following type does the container should define?</p>",
+      "options": ["Iterator type", "Vector type", "Storage type","None of the mentioned"],
+      "answer": "A",
+    },
+    {
+      "question": "<p>Which are the parameters for the content of the buffer?</p>",
+      "options": ["start", "finish", "Both a & b","None of the mentioned"],
+      "answer": "C",
+    },
+    {
+      "question": "<p>What is the time complexity for converting decimal to binary numbers?</p>",
+      "options": ["O(1)", "O(n)", "O(logn)","O(nlogn)"],
+      "answer": "C",
+    },
+    {
+      "question": "<p>The system throws an error if parentheses are encountered in an infix expression evaluation algorithm.</p>",
+      "options": ["true", "false", " "," "],
+      "answer": "B",
+      },
+    {
+      "question": "<p>Which is the predefined method available in java to convert decimal to binary number?</p>",
+      "options": ["toBinaryInteger(int)", "toBinaryValue(int)", "toBinaryNumber(int)","toBinaryString(int)"],
+      "answer": "D",
+     },
+    {
+      "question": "<p>Elements in an array are accessed ------------</p>",
+      "options": ["Randomly", "Sequentially", "Exponentially","Logarithmically"],
+      "answer": "A",
+     },
+    {
+      "question": "<p>Which data structure is used for implementating recursion?</p>",
+      "options": ["Queue", "Stack", "Array","List"],
+      "answer": "B",
+    },
+    

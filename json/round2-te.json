@@ -1,0 +1,129 @@
+{
+  "mcqs": [
+    {
+      "question": "<p>Operations required for reversing a word or a string using stack are push() and pop()</p>",
+      "options": ["true", "false"],
+      "answer": "A"
+    },
+    {
+      "question": "<p>Find the error (if any) in the following code snippet for pop operation.<br>\n   Void pop() //removing an element from a stack<br>\n       {<br>\n printf(�%s�, stack[top++]);<br>\n       }</p>",
+      "options": ["Run time error", "Compile time error", "Pop operation is performed , but top moved in wrong direction", "Pop operation is performed properly"],
+      "answer": "C"
+    },
+    {
+      "question": "<p>Which of the following statement is incorrect?</p>",
+      "options": ["Postfix operators use value to their right", "Prefix operator use value to their right", "In postfix expression, operands are followed by operators", " "],
+      "answer": "A"
+    },
+    {
+      "question": "<p>What is the time complexity of enqueue  operation?</p>",
+      "options": ["O(logn)", "O(nlogn)", "O(n)", "O(1)"],
+      "answer": "D"
+    },
+    {
+      "question": "<p>Which of these is not an application of linked list?</p>",
+      "options": ["To implement file system ", "For seprate chaining in hash-table", "To implement non-binary tree", "Random access of element"],
+      "answer": "D"
+    },
+    {
+      "question": "<p>An enumerated type is composed of</p>",
+      "options": ["Integer values with user defined name", "Variables of different data types", "Constant numeric values","None of the above"],
+      "answer": "A"
+    },
+    {
+      "question": "<p>Which of the following type does the container should define?</p>",
+      "options": ["Iterator type", "Vector type", "Storage type", "None of the above"],
+      "answer": "A"
+    },
+    {
+      "question": "<p>Which are the parameters for the content of the buffer?</p>",
+      "options": ["start", "finish", "both start and finish", "None of the above"],
+      "answer": "C"
+    },
+    {
+      "question": "<p>How many vector container properties are there in c++?</p>",
+      "options": ["1", "2", "3", "4"],
+      "answer": "C"
+    },
+    {
+      "question": "<p>What do maps and sets support?</p>",
+      "options": ["Single directional iterators", "Bi-directional iterators", "Both a & b", " None of the mentioned"],
+      "answer": "B"
+    },
+    {
+      "question": "<p>Which of the following statement is correct?</p>",
+      "options": ["Overloaded functions can accept same number of arguments.", "Overloaded functions always return value of same data type.", "Overloaded functions can accept only same number and same type of arguments", "Overloaded functions can accept only different number and different type of arguments."],
+      "answer": "A"
+    },
+    {
+      "question": "<p>Where the default value of parameter have to be specified?</p>",
+      "options": ["Function call", "Function definition", "Function prototype", "Both B or C"],
+      "answer": "C"
+    },
+    {
+      "question": "<p>Which of the following statements is incorrect?</p>",
+      "options": ["Friend keyword can be used in the class to allow access to another class.", "Friend keyword can be used for a function in the public section of a class.", "Friend keyword can be used for a function in the private section of a class.", "Friend keyword can be used on main()."],
+      "answer": "D"
+    },
+    {
+      "question": "<p>Which of the following statement is correct with respect to the use of friend keyword inside a class?</p>",
+      "options": ["A private data member can be declared as a friend.", "A class may be declared as a friend.", "An object may be declared as a friend.", "We can use friend keyword as a class name."],
+      "answer": "B"
+    },
+    {
+      "question": "<p>Which of the following statements about virtual base classes is correct?</p>",
+      "options": ["It is used to provide multiple inheritance", "It is used to avoid multiple copies of base class in derived class.", "It allows private members of the base class to be inherited in the derived class.", "None of the mentioned"],
+      "answer": "B"
+    },
+    {
+      "question": "<p>What will be the output of the following statements ? <br>\nint a=5,b=6,c=9,d; d=(ac?1:2):(c>b?6:8)); printf(�%d�,d);</p>",
+      "options": ["1", "2", "6", "error"],
+      "answer": "D"
+    },
+    {
+      "question": "<p>What will be the output of the following statements ?<br>\nint a = 4, b = 7,c; c = a = = b; printf(�%i�,c); </p>",
+      "options": ["0", "error", "1", "garbage value"],
+      "answer": "A"
+    },
+    {
+      "question": "<p>The statement printf(�%c�, 100); will print? </p>",
+      "options": ["prints 100 ", "prints garbage value", "prints ASCII equivalent of 100", "None of the mentioned"],
+      "answer": "C"
+    },
+    {
+      "question": "<p>Which is the right way to declare constant in C?</p>",
+      "options": ["int constant var =10; ", "int const var = 10; ", "const int var = 10;", "both b and c"],
+      "answer": "D"
+    },
+    {
+      "question": "<p>What is the work of break keyword? </p>",
+      "options": ["Halt execution of program", " Restart execution of program", "Exit from loop or switch statement ", "None of the mentioned"],
+      "answer": "C"
+    },
+    {
+      "question": "<p>What is the order of precedence in python?<br>\n i) Parentheses<br>\nii) Exponential<br>\niii) Multiplication<br>\niv) Division<br>\nv) Addition<br>\nvi) Subtraction</p>",
+      "options": ["i,ii,iii,iv,v,vi", "ii,i,iii,iv,v,vi", "i,ii,iii,iv,vi,v", "None of the mentioned"],
+      "answer": "A"
+    },
+    {
+      "question": "<p>What will be the output of the following Python code? <br>\nl=list('HELLO')<br>\n'first={0[0]}, third={0[2]}'.format(l)</p>",
+      "options": ["�first=H, third=L� ", "�first=0, third=2� ", "Error", "�first=0, third=L"],
+      "answer": "A"
+    },
+    {
+      "question": "<p>Select the option for following code :- <br>\ns = 0 <br>\nfor d in range(0, 5, 0.1):<br>\n s += d<br>\n print(s) </p>",
+      "options": ["Syntax Error", "Type Error", "Runtime error", "Both b and c"],
+      "answer": "D",
+    },
+    {
+      "question": "<p>Which of the following is true for variable names in Python?</p>",
+      "options": ["unlimited length", "all private members must have leading and trailing underscores", "underscore and ampersand are the only two special characters allowed", "none of the mentioned"],
+      "answer": "A"
+    },
+    {
+      "question": "<p>Which of the following formatting options can be used in order to add �n� blank spaces after a given string �S�?</p>",
+      "options": ["print(�-ns�%S)", "print(�-ns�%S)", "print(�%ns�%S)", "print(�%-ns�%S)"],
+      "answer": "D"
+    }
+  ]
+}
