@@ -5,8 +5,7 @@ const fs = require("fs");
 
 const PORT = process.env.PORT || 5000;
 const app = express();
-app.use(cors())
-
+app.use(cors());
 
 app.get("/", (req, res) => {
   res.sendFile(path.join(__dirname, "public", "index.html"));
@@ -59,7 +58,7 @@ app.post("/api/credentials", (req, res) => {
   );
 });
 
-app.post("/api/apti",  (req, res) => {
+app.post("/api/apti", (req, res) => {
   if (req.query.limit <= 30) {
     fs.readFile(
       path.join(__dirname, "json", `${req.query.topic}.json`),
